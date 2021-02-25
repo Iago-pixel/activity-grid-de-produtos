@@ -257,6 +257,12 @@ Percebemos que talvez os lis(produtos) fiquem um em baixo do outro. Então para 
 
 ---
 
+## Desafio 
+
+1. Aplicar mobile first 
+2. Aplicar pelo menos 3 hovers diferentes
+
+---
 ## Publicação
 
 Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages.
