@@ -244,7 +244,7 @@ Nessa etapa vamos fazer a formatação de preços que estão posicionado dentro 
 
 ---
 
-### °9 Passo - Replicando produtos e dando posicionamento com flex
+### °10 Passo - Replicando produtos e dando posicionamento com flex
 
 Nessa última etapa, vamos replicar nossos produtos deixando 4 produtos por seção.
 Percebemos que talvez os lis(produtos) fiquem um em baixo do outro. Então para alinhar esse produtos um ao lado do outro vamos utilizar a propriedade __flex__ veja!
