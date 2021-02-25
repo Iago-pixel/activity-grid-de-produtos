@@ -1,7 +1,7 @@
 # Atividade Fazendo Grid de Produtos
 
-Nessa atividade vamos desenvolver uma grid de produtos para uma loja virtual.
-Você pode fazer o fork do projeto nesse repositório (projeto). 
+Nessa atividade vamos desenvolver uma grid de produtos para uma [loja virtual](./Mockup.png).
+Você pode fazer o fork do projeto nesse [repositório (projeto)](https://gitlab.com/kenzie-academy-brasil/se/fe/sprint-3-css-week/activity-grid-de-produtos)]. 
 
 Nesse projeto você vai receber toda a estrutura do html já pronta, para que possamos focar apenas no css. Mas claro! Se você prefirir você mesmo pode desenvolver sua própria estrutura.
 
