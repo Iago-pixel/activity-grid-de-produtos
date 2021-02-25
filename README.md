@@ -5,7 +5,23 @@ Você pode fazer o fork do projeto nesse repositório (projeto).
 
 Nesse projeto você vai receber toda a estrutura do html já pronta, para que possamos focar apenas no css. Mas claro! Se você prefirir você mesmo pode desenvolver sua própria estrutura.
 
-Vamos lá!!!
+### Estrutura de pastas
+
+- README.md
+- index.html
+- /assets
+    - /css
+        - style.css
+    - /img
+        - 132718815_1GG.webp
+        - 1818873810_1GG.webp
+        - 2407778068_1GG.webp
+        - 2638610300_1GG.webp
+    - /js
+        - script.js
+
+
+__Vamos lá!!!__
 
 ---
 
@@ -19,7 +35,7 @@ __Comece do mobile first__
 
 ### °1 Passo - montando nossa grid
 
-Para montar nossa li (__li.produtos__) que envolve cada produto vamos utilizar as seguintes propriedades:
+Para montar nossa li (__li.produto__) que envolve cada produto vamos utilizar as seguintes propriedades:
 
 - Tag de aplicação: __`<li class="produto">`__ deve se aplicar as propriedades na classe do elemento.
 
@@ -240,3 +256,7 @@ Percebemos que talvez os lis(produtos) fiquem um em baixo do outro. Então para 
 `justify-content: space-between;`
 
 ---
+
+## Publicação
+
+Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages.
