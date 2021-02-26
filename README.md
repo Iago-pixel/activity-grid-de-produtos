@@ -39,15 +39,13 @@ Para montar nossa li (__li.produto__) que envolve cada produto vamos utilizar as
 
 - Tag de aplicação: __`<li class="produto">`__ deve se aplicar as propriedades na classe do elemento.
 
-`background: rgb(255, 255, 255);`
-
-`width: 296px;`
-
-`box-shadow: rgb(0 0 0 / 20%) 0px 2px 6px;`
-
-`padding: 15px 15px 65px 15px;`
-
-`position: relative;`
+```css
+background: rgb(255, 255, 255);
+width: 296px;
+box-shadow: rgb(0 0 0 / 20%) 0px 2px 6px;
+padding: 15px 15px 65px 15px;
+position: relative;
+```
 
 ---
 
@@ -57,17 +55,14 @@ Para montar nossa tag (span.produto_desconto) de desconto vamos utilizar as segu
 
 - Tag de aplicação: __`<span class="produto_desconto">`__ deve se aplicar as propriedades na classe do elemento.
 
-`background-color: #39b701;`
-
-`color: #fff;`
-
-`padding: 3px 10px;`
-
-`border-radius: 5px;`
-
-`display: inline-block;`
-
-`float: right;`
+```css
+background-color: #39b701;
+color: #fff;
+padding: 3px 10px;
+border-radius: 5px;
+display: inline-block;
+float: right;
+```
 
 ---
 
@@ -77,12 +72,11 @@ Para formatar nossa imagem de produto (__img__) vamos utilizar as seguintes prop
 
 - Tag de aplicação: __`<img src="" alt="">`__ 
 
-`display: block;`
-
-`width: 100%;`
-
-`height: auto;`
-
+```css
+display: block;
+width: 100%;
+height: auto;
+```
 ---
 
 ### °5 Passo - Escondendo a tag figcaption
@@ -91,8 +85,9 @@ Para esconder a tag figcaption (__figcaption__) vamos utilizar as seguinte propr
 
 - Tag de aplicação: __`<figcaption>`__
 
-`display: none;`
-
+```css
+display: none;
+```
 ---
 
 ### °6 Passo - Formatando nossa tag título
@@ -101,12 +96,11 @@ Para formatar a tag (__h2__) do nome do produto vamos utilizar as seguinte propr
 
 - Tag de aplicação: __`<h2>`__
 
-
-`font-size: 16px;`
-
-`font-weight: 100;`
-
-`color: #535353;`
+```css
+font-size: 16px;
+font-weight: 100;
+color: #535353;
+```
 
 ### °7 Passo - Estilizando as estrelas de avaliação
 
@@ -116,44 +110,32 @@ Dentro da div(div.produto_avaliacao) em nosso html, temos algumas tags span que 
 
 - Tag de aplicação: __`<span>`__
 
-`display: inline-block;`
-
-`position: relative;`
-
-`width: 0;`
-
-`height: 0;`
-
-`border-left: calc(10px/2) solid transparent;`
-
-`border-right: calc(10px/2) solid transparent;`
-
-`border-bottom: 10px solid #666666;`
-
-`top: calc(10px/-6);`
+```css
+display: inline-block;
+position: relative;
+width: 0;
+height: 0;
+border-left: calc(10px/2) solid transparent;
+border-right: calc(10px/2) solid transparent;
+border-bottom: 10px solid #666666;
+top: calc(10px/-6);
+```
 
 - __Aplicando estilo no pseudo elemento do nosso span__
 
 - Tag de aplicação: __`span::before`__
 
-`position: absolute;`
-
-`content: '';`
-
-`width: 0;`
-
-`height: 0;`
-
-`border-left: calc(10px/2) solid transparent;`
-
-`border-right: calc(10px/2) solid transparent;`
-
-`border-top: 10px solid #666666;`
-
-`top: calc(10px/3);`
-
-`left: calc(10px/-2);`
-
+```css
+position: absolute;
+content: '';
+width: 0;
+height: 0;
+border-left: calc(10px/2) solid transparent;
+border-right: calc(10px/2) solid transparent;
+border-top: 10px solid #666666;
+top: calc(10px/3);
+left: calc(10px/-2);
+```
 ---
 
 - Quando esse elemento for "ativo", tiver a classe a __ativo__ deve receber a cor amarela para sinalizar a avaliação:
@@ -162,23 +144,21 @@ A)
 
 - Tag de aplicação: __`span.ativo`__
 
-`border-left: calc(10px/2) solid transparent;`
-
-
-`border-right: calc(10px/2) solid transparent;`
-
-`border-bottom: 10px solid #f2c832;`
+```css
+border-left: calc(10px/2) solid transparent;`
+border-right: calc(10px/2) solid transparent;`
+border-bottom: 10px solid #f2c832;`
+```
 
 B)
 
 - Tag de aplicação: __`span.ativo::before`__
 
-`border-left: calc(10px/2) solid transparent;`
-
-`border-right: calc(10px/2) solid transparent;`
-
-`border-top: 10px solid #f2c832;`
-
+```css
+border-left: calc(10px/2) solid transparent;
+border-right: calc(10px/2) solid transparent;
+border-top: 10px solid #f2c832;
+```
 ---
 
 ### °8 Passo - Formatando preços
@@ -187,30 +167,28 @@ Nessa etapa vamos fazer a formatação de preços que estão posicionado dentro 
 
 - Preço antigo __` <span>R$ 1.699,99</span>`__ 
 
-`display: block;`
-
-`font-weight: bold;`
-
-`color: #535353;`
-
-`text-decoration: line-through;`
-
-`font-size: 13px;`
+```css
+display: block;
+font-weight: bold;
+color: #535353;
+text-decoration: line-through;
+font-size: 13px;
+```
 
 - Preço atual __` <strong>R$ 1.649,99</strong>`__ 
 
-`font-size: 20px;`
-
-`margin: 4px 0 6px;`
-
-`display: block;`
-
+```css
+font-size: 20px;
+margin: 4px 0 6px;
+display: block;
+```
 
 - Parcelamento __`<p>1x de R$ 1.649,99 sem juros no cartão</p>`__ 
 
-`color: #535353;`
-
-`font-size: 13px;`
+```css
+color: #535353;
+font-size: 13px;
+```
 
 ---
 
@@ -218,29 +196,20 @@ Nessa etapa vamos fazer a formatação de preços que estão posicionado dentro 
 
 - Botão  __`<button>Comprar</button>`__
 
-`display: block;`
-
-`width: 90%;`
-
-`height: 40px;`
-
-`border: none;`
-
-`background-color: #39b701;`
-
-`text-transform: uppercase;`
-
-`color: #fff;`
-
-`margin: 0 auto;`
-
-`font-weight: 600;`
-
-`position: absolute;`
-
-`bottom: 10px;`
-
-`cursor: pointer;`
+```css
+display: block;
+width: 90%;
+height: 40px;
+border: none;
+background-color: #39b701;
+text-transform: uppercase;
+color: #fff;
+margin: 0 auto;
+font-weight: 600;
+position: absolute;
+bottom: 10px;
+cursor: pointer;
+```
 
 ---
 
@@ -251,9 +220,10 @@ Percebemos que talvez os lis(produtos) fiquem um em baixo do outro. Então para 
 
 - Tag de aplicação: __`<ul class="produtos_lista">`__ deve se aplicar as propriedades na classe do elemento.
 
-`display: flex;`
-
-`justify-content: space-between;`
+```css
+display: flex;
+justify-content: space-between;
+```
 
 ---
 
