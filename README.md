@@ -3,7 +3,7 @@
 Nessa atividade vamos desenvolver uma grid de produtos para uma [loja virtual](./Mockup.png).
 Você pode fazer o fork do projeto nesse [repositório (projeto)](https://gitlab.com/kenzie-academy-brasil/se/fe/sprint-3-css-week/activity-grid-de-produtos)]. 
 
-Nesse projeto você vai receber toda a estrutura do html já pronta, para que possamos focar apenas no css. Mas claro! Se você prefirir você mesmo pode desenvolver sua própria estrutura.
+Nesse projeto você vai receber toda a estrutura do html já pronta, para que possamos focar apenas no css. Mas claro! Se você preferir você mesmo pode desenvolver sua própria estrutura.
 
 ### Estrutura de pastas
 
@@ -104,7 +104,7 @@ color: #535353;
 
 ### °7 Passo - Estilizando as estrelas de avaliação
 
-Para estilizar as estrelas de avaliação vamos precisar de um pseuodo elemento veja como podemos fazer.
+Para estilizar as estrelas de avaliação vamos precisar de um pseudo elemento veja como podemos fazer.
 
 Dentro da div(div.produto_avaliacao) em nosso html, temos algumas tags span que vão simular nossas estrelas de avaliações. Então as propriedades css dessa etapa serão aplicada nesse elemento:
 
