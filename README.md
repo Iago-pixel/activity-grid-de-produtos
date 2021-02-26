@@ -7,7 +7,7 @@ Nesse projeto você vai receber toda a estrutura do html já pronta, para que po
 
 ### Layout
 
-![Grid de produtos](https://files-kenzie-academy-brasil.s3.amazonaws.com/q1/sprint3/grid1.png)
+<!-- ![Grid de produtos](https://files-kenzie-academy-brasil.s3.amazonaws.com/q1/sprint3/grid1.png) -->
 
 [Ver em tela cheia](https://files-kenzie-academy-brasil.s3.amazonaws.com/q1/sprint3/grid1.png)
 
