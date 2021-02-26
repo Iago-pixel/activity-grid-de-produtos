@@ -145,8 +145,8 @@ A)
 - Tag de aplicação: __`span.ativo`__
 
 ```css
-border-left: calc(10px/2) solid transparent;`
-border-right: calc(10px/2) solid transparent;`
+border-left: calc(10px/2) solid transparent;
+border-right: calc(10px/2) solid transparent;
 border-bottom: 10px solid #f2c832;`
 ```
 
