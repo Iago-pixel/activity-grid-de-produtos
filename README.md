@@ -1,4 +1,5 @@
-# Atividade Fazendo Grid de Produtos
+# Atividade Fazendo Vitrine de Produtos com Flex
+ 
 
 Nessa atividade vamos desenvolver uma grid de produtos para uma loja virtual.
 Você pode fazer o fork do projeto nesse [repositório (projeto)](https://gitlab.com/kenzie-academy-brasil/se/fe/sprint-3-css-week/activity-grid-de-produtos)]. 
