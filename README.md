@@ -56,7 +56,7 @@ position: relative;
 
 ---
 
-### °3 Passo - montando tag (span) de desconto
+### °2 Passo - montando tag (span) de desconto
 
 Para montar nossa tag (span.produto_desconto) de desconto vamos utilizar as seguintes propriedades:
 
@@ -73,7 +73,7 @@ float: right;
 
 ---
 
-### °4 Passo - formatando imagem do produto
+### °3 Passo - formatando imagem do produto
 
 Para formatar nossa imagem de produto (__img__) vamos utilizar as seguintes propriedades:
 
@@ -86,7 +86,7 @@ height: auto;
 ```
 ---
 
-### °5 Passo - Escondendo a tag figcaption
+### °4 Passo - Escondendo a tag figcaption
 
 Para esconder a tag figcaption (__figcaption__) vamos utilizar as seguinte propriedade:
 
@@ -97,7 +97,7 @@ display: none;
 ```
 ---
 
-### °6 Passo - Formatando nossa tag título
+### °5 Passo - Formatando nossa tag título
 
 Para formatar a tag (__h2__) do nome do produto vamos utilizar as seguinte propriedade:
 
@@ -109,7 +109,7 @@ font-weight: 100;
 color: #535353;
 ```
 
-### °7 Passo - Estilizando as estrelas de avaliação
+### °6 Passo - Estilizando as estrelas de avaliação
 
 Para estilizar as estrelas de avaliação vamos precisar de um pseudo elemento veja como podemos fazer.
 
@@ -168,7 +168,7 @@ border-top: 10px solid #f2c832;
 ```
 ---
 
-### °8 Passo - Formatando preços
+### °7 Passo - Formatando preços
 
 Nessa etapa vamos fazer a formatação de preços que estão posicionado dentro da div (div.produto_preco).
 
@@ -199,7 +199,7 @@ font-size: 13px;
 
 ---
 
-### °9 Passo - Estilizando botão de compra
+### °8 Passo - Estilizando botão de compra
 
 - Botão  __`<button>Comprar</button>`__
 
@@ -220,7 +220,7 @@ cursor: pointer;
 
 ---
 
-### °10 Passo - Replicando produtos e dando posicionamento com flex
+### °9 Passo - Replicando produtos e dando posicionamento com flex
 
 Nessa última etapa, vamos replicar nossos produtos deixando 4 produtos por seção.
 Percebemos que talvez os lis(produtos) fiquem um em baixo do outro. Então para alinhar esse produtos um ao lado do outro vamos utilizar a propriedade __flex__ veja!
